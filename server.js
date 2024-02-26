@@ -8,7 +8,6 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
 app.get("/", (req, res) => {
   let url =
     "https://api.themoviedb.org/3/movie/49530?api_key=d52c046bd476a718b7166643fb09a9cc";
